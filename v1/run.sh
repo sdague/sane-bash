@@ -13,7 +13,7 @@ export VERBOSE=1
 echo ""
 echo "Here is our script..."
 echo "===================="
-cat test.sh
+source-highlight -fesc -oSTDOUT -i test.sh
 echo "===================="
 prompt
 
