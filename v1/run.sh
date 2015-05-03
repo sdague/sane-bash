@@ -2,7 +2,7 @@
 
 function prompt {
     yes="y"
-    read yes
+    read -s yes
     yes=${yes:-y}
 }
 
