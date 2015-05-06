@@ -39,3 +39,23 @@ echo "===================="
 
 prompt
 reset
+
+echo "But what else can you do with functions?"
+echo "===================="
+prompt
+
+source-highlight -fesc -s bash -o STDOUT -i caller.sh
+
+prompt
+reset
+
+echo "Bash 'stack trace'"
+echo "===================="
+prompt
+
+./caller.sh
+
+prompt
+reset
+
+echo "Next Time.... traps"
